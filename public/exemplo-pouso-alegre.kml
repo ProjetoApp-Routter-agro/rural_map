@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Propriedades de Exemplo - Pouso Alegre</name>
+    <Placemark>
+      <name>Fazenda Boa Vista</name>
+      <description>Pecuária leiteira tradicional na zona rural.</description>
+      <Point>
+        <coordinates>-45.9450,-22.2150,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sítio Café da Serra</name>
+      <description>Plantação de café arábica em área de altitude.</description>
+      <Point>
+        <coordinates>-45.9620,-22.2480,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pousada Vale Verde</name>
+      <description>Turismo rural e gastronomia mineira.</description>
+      <Point>
+        <coordinates>-45.9210,-22.2010,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Reserva da Mata Atlântica</name>
+      <description>Área de preservação permanente.</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -45.9700,-22.2600,0
+              -45.9500,-22.2600,0
+              -45.9500,-22.2400,0
+              -45.9700,-22.2400,0
+              -45.9700,-22.2600,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Agrofloresta Renascer</name>
+      <description>Sistema agroflorestal com diversas espécies nativas.</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -45.9300,-22.2350,0
+              -45.9180,-22.2350,0
+              -45.9180,-22.2250,0
+              -45.9300,-22.2250,0
+              -45.9300,-22.2350,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
